@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LEFT_SHIFT, LCTL(KC_P), KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMMA, KC_DOT, KC_SLASH, LGUI(KC_L), KC_RIGHT_SHIFT, KC_NO, KC_UP, KC_NO, KC_KP_1, KC_KP_2, KC_KP_3,
         // row 5
         KC_LEFT_CTRL, KC_LEFT_GUI, KC_LEFT_ALT, MO(1), KC_SPACE, LCTL(KC_A), KC_RIGHT_ALT, MO(1), KC_RIGHT_GUI, KC_RIGHT_CTRL, LCTL(KC_C), LCTL(KC_V), LCTL(KC_X), KC_NO, KC_NO, KC_KP_DOT, KC_LEFT, KC_DOWN, KC_RIGHT, KC_KP_0
-    )
+    ),
 
     // ── To add a layer, copy the block above and change [0] to [1] ──
     // Example:
