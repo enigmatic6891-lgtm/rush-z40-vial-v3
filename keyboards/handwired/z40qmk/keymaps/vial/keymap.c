@@ -42,9 +42,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // ── To add a layer, copy the block above and change [0] to [1] ──
     // Example:
-    // [1] = LAYOUT(
-    //     KC_TRNS, KC_TRNS, ...   // KC_TRNS = use layer below
-    // )
+    [1] = LAYOUT(
+         // row 0
+         KC_NO, KC_NO, KC_AUDIO_MUTE, KC_AUDIO_VOL_DOWN, KC_AUDIO_VOL_UP, KC_MEDIA_PREV_TRACK, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_NEXT_TRACK, KC_BRIGHTNESS_DOWN, KC_BRIGHTNESS_UP, LGUI(KC_TAB), LGUI(KC_D), KC_WWW_SEARCH, KC_WWW_HOME, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+         // row 1
+         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, BL_BRTG, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+         // row 2
+         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, BL_TOGG, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+         // row 3
+         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+         // row 4
+         KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, BL_INC, KC_NO, KC_NO, KC_NO, KC_NO,
+         // row 5
+         KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, BL_DEC, KC_NO, KC_NO
+    )
 };
 
 // ==========================================
