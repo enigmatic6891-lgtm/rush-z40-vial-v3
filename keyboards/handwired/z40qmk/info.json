@@ -54,7 +54,7 @@
     // COL2ROW: opposite — current flows COL → diode → switch → ROW
     //          Diode cathode connects toward the COL wire.
     // This must match your physical PCB schematic exactly.
-    "diode_direction": "COL2ROW",
+    "diode_direction": "ROW2COL",
 
     // ── FEATURES ──────────────────────────────────────────────────
     // nkro: N-Key Rollover — allows unlimited simultaneous keypresses (vs 6-key limit).
