@@ -14,3 +14,4 @@
 # keyboard.json schema does not support these as features keys.
 MCU = RP2040
 BOOTLOADER = rp2040
+BACKLIGHT_ENABLE = yes
