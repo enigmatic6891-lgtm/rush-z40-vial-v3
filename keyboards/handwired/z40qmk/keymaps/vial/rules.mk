@@ -18,4 +18,4 @@ EXTRAKEY_ENABLE = yes
 # sym_defer_pr: per-row/key timer
 # sym_eager_pr: register immediately on press
 # asym_eager_defer_pk: press eager, release deferred (per key)
-DEBOUNCE_TYPE = sym_defer_g
+DEBOUNCE_TYPE = sym_defer_pk
