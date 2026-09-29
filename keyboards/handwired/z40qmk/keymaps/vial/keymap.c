@@ -92,8 +92,8 @@ void keyboard_pre_init_user(void) {
     writePinHigh(SCRLK_LED_PIN);
 }
 
-// 3. Отслеживание команд от ОС и переключение "земли"
-void led_set_user(led_t led_state) {
+// 3. СОВРЕМЕННЫЙ вариант отслеживания локов для актуальных версий QMK/Vial
+bool led_update_user(led_t led_state) {
     // Управление Caps Lock
     if (led_state.caps_lock) {
         writePinLow(CAPS_LED_PIN);  // ВКЛ -> Прижимаем к земле (диод горит)
@@ -114,4 +114,7 @@ void led_set_user(led_t led_state) {
     } else {
         writePinHigh(SCRLK_LED_PIN); // ВЫКЛ -> Подаем плюс (диод гаснет)
     }
+
+    return true; // Обязательно возвращаем true, чтобы QMK знал, что мы успешно обработали состояние
 }
+
