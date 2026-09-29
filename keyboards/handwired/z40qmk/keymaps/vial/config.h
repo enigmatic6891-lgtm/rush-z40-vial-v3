@@ -49,8 +49,8 @@
 // BOOTMAGIC: default (top-left key, row 0 col 0).
 
 #define BACKLIGHT_PIN 29
-#define BACKLIGHT_LEVELS 5
-#define BACKLIGHT_BREATHING
+//#define BACKLIGHT_LEVELS 5
+//#define BACKLIGHT_BREATHING
 
 
 
